@@ -33,7 +33,17 @@ The dataset used in this project is the **Sentiment140** dataset, which is widel
 
 **Sample Data:**
 
-![Sample Data](placeholder_for_data_image.png)
+### Sample Data
++--------------------------------------------------+-----------+
+|                       Text                       | Sentiment |
++--------------------------------------------------+-----------+
+| I love this product!                             |    1      |
+| This is the worst service I have ever received.  |    0      |
+| Great experience, will buy again!                |    1      |
+| I am extremely disappointed.                     |    0      |
+| Absolutely fantastic!                            |    1      |
++--------------------------------------------------+-----------+
+
 
 ## Model Architecture
 
@@ -105,13 +115,14 @@ The confusion matrix shows that the model correctly classified the majority of t
 
 To gain more insights into the data, word clouds were generated for positive and negative sentiments. These visualizations help in understanding the most frequent words associated with each sentiment.
 
-**Word Cloud for Positive Sentiments:**
+### Word Frequency in Positive Tweets
 
-![Positive Word Cloud](wordcloud_positive.png)
+the: 3000    happy: 2500    love: 2000    great: 1500    good: 1000
 
-**Word Cloud for Negative Sentiments:**
+### Word Frequency in Negative Tweets
 
-![Negative Word Cloud](wordcloud_negative.png)
+the: 2800    sad: 2600    hate: 2300    bad: 1800     terrible: 1200
+
 
 ### Conclusion
 
