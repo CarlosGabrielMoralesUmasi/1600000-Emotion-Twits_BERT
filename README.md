@@ -34,15 +34,14 @@ The dataset used in this project is the **Sentiment140** dataset, which is widel
 **Sample Data:**
 
 ### Sample Data
-+--------------------------------------------------+-----------+
-|                       Text                       | Sentiment |
-+--------------------------------------------------+-----------+
-| I love this product!                             |    1      |
-| This is the worst service I have ever received.  |    0      |
-| Great experience, will buy again!                |    1      |
-| I am extremely disappointed.                     |    0      |
-| Absolutely fantastic!                            |    1      |
-+--------------------------------------------------+-----------+
+
+| Text                                             | Sentiment |
+|--------------------------------------------------|-----------|
+| I love this product!                             |     1     |
+| This is the worst service I have ever received.  |     0     |
+| Great experience, will buy again!                |     1     |
+| I am extremely disappointed.                     |     0     |
+| Absolutely fantastic!                            |     1     |
 
 
 ## Model Architecture
